@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-typescript",
+  "version": "1.0.0",
+  "description": "Code challenges",
+  "main": "index.ts",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "tsx": "^3.12.7"
+  }
+}
